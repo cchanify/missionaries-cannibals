@@ -1,24 +1,7 @@
 /* MisCan.pl
-* HW10 Question 4 - 2 points
+* HW10
 * Solution to the missionaries and cannibals problem
-* Connor Hanify, worked with Kyle Schlanger
-* Professor Scharstein cs313
-*
-* Explanation: I used code from goat.pl as a base for my solution. I couldn't
-* think of any solution besides enumerating a case for every possible move
-* scenario, though I am sure there are cleaner ways. I struggled a great deal
-* with how and when to call the "solve" function, but again, looking at goat.pl
-* helped me a great deal.
-*
-* The structure of the output is as follows: [1,2,3,4, state] with
-* 1 corresponding to count missionaries on left shore
-* 2 corresponding to count cannibals on left shore
-* 3 corresponding to count missionaries on right shore
-* 4 corresponding to count cannibals on right shore
-* state is either right or left and indicates the side the boat is on.
-*
-Testing code:
-
+* Professor Scharstein cs313 - Programming Languages
 */
 :- debug.
 :- use_module(library(lists)).
